@@ -1,0 +1,15 @@
+#mainPage,#gallery, #services{
+  color: red;
+  height: 800px;
+  background-color: blue;
+  width: 600px ;
+}
+#nav {
+  align-items: center;
+}
+body {
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
