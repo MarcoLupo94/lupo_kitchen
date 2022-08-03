@@ -1,14 +1,27 @@
 #mainPage,#gallery, #services{
+  text-align: center;
+  text-decoration: wavy;
+  font: bold ;
+  font-size: 34px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: red;
   height: 800px;
   background-color: blue;
   width: 600px ;
+  padding: 1.2em;
 }
 #nav {
+  width: 600px;
   align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+button{
+  display: flex;
+  width: 5em;
+  height: 1.5em;
 }
 body {
-
   align-items: center;
   display: flex;
   flex-direction: column;
