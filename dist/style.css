@@ -1,14 +1,18 @@
-#mainPage,#gallery, #services{
+#mainPage,#gallery,#services{
   text-align: center;
   text-decoration: wavy;
   font: bold ;
   font-size: 34px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: red;
-  height: 800px;
+  height: 100vh;
   background-color: blue;
-  width: 600px ;
+  width: 80vw ;
   padding: 1.2em;
+}
+#content{
+  height: 80rem;
+  width:70rem;
 }
 #nav {
   width: 600px;
@@ -25,4 +29,45 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
+  background-color: rgb(54, 52, 52) ;
+}
+#services{
+  background-image:  url(../images/DSC_2038.jpg);
+  background-size: cover;
+  padding: 0 0 0 0.5em;
+  width: 90vw ;
+
+}
+#contact-me{
+  height: 100vh;
+  width: 50vw;
+  position: relative;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.p{
+  background-color: hsl(0, 0%, 90%);
+  height: 33.3vh;
+  padding: 10px;
+  display: flex;
+}
+#form{
+  height: 33.3vh;
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px rgb(54, 52, 52,0.3) ;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+#submit{
+  background-color: green;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px 1px rgb(54, 52, 52,0.3) ;
+  width: 150px;
+  height: 50px;
+  align-items: center;
 }
